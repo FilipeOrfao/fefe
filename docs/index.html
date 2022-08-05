@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>SvelteKit Stock info</title>
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/__layout.svelte-0abdb4e2.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/Button-86a15a3a.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/index.svelte-2483cab5.css">
+	<link rel="modulepreload" href="/_app/immutable/start-5a8c57b6.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-d55b7697.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-3ee5ab0d.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-a5bf3e39.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/Button-fbfc30d3.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-9b0295b7.js">
+	</head>
+	<body>
+		<div>
+
+
+<nav class="svelte-5foj5q"><a href="/"><button class="svelte-6n3u0">Home</button>
+</a>
+	<a href="/about"><button class="svelte-6n3u0">About</button>
+</a>
+</nav>
+
+
+<body><div class="info"><div class="title"><h1>Banco Bradesco S.A. (BBD)</h1></div>
+
+	<div class="stats svelte-11t9a19"><div class="value"><h2>Value</h2>
+
+			<p>Market Cap: $32B</p>
+			<p>PE (TTM|FWD): [object Object]</p>
+			<p>Price To Sales(TTM): $0.34</p>
+			<p>EV To (TTM): [object Object]</p>
+			<p>Price to Book (TTM): $0.21</p></div>
+
+		<div class="quality"><h2>Quality</h2>
+
+			<p>Piotroski Score: [object Object]</p>
+			<p>Quality Rating: [object Object]</p></div>
+
+		<div class="margin-growth"><h2>Margins &amp; Growth</h2>
+
+			<p>Profit Margin: 25%</p>
+			<p>Operating Margin (TTM): 37%</p>
+			<p>Quarterly Earnings (YoY): $NaN</p>
+			<p>Quarterly Revenue (YoY): $95,449,169,920.00</p></div>
+
+		<div class="balance"><h2>Balance</h2>
+
+			<p>Cash: $148,710,965,248.00</p>
+			<p>Debt: $526,613,577,728.00</p>
+			<p>Net: $24,028,604,416.00</p></div>
+
+		<div class="dividend"><h2>Dividend</h2>
+
+			<p>Dividend Yield: +3.73%</p>
+			<p>Payout Ratio: 0.1885</p>
+			<p>Ex-Div Date: [object Object]</p>
+			<p>Payout Date: [object Object]</p></div></div>
+</div>
+	<div class="grid svelte-uo84so"><div class="chart svelte-3g1cn3"><div id="thing"></div>
+	<div id="area-tooltip"></div>
+</div>
+	<div class="chart svelte-1oy7b8b"><div id="revenue" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="ebitda" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="cash" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="test" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="eps" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="cash-bebt" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="dividends" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="shares-outstanding" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="margins" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="valuation" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+
+	<div class="chart svelte-1oy7b8b"><div id="test3" class="svelte-1oy7b8b"></div>
+	<div id="tooltip" class="svelte-1oy7b8b"><div class="tooptip-date"><span id="date"></span></div>
+		<div class="tooptip-gdp"><span id="open"></span></div></div>
+</div>
+</div>
+
+	
+</body>
+
+
+		<script type="module" data-sveltekit-hydrate="f3d2f5">
+		import { start } from "/_app/immutable/start-5a8c57b6.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="f3d2f5"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 3],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script></div>
+	</body>
+</html>
