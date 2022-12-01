@@ -5945,7 +5945,7 @@ function n2(e, l) {
         n(C, "class", "svelte-1syewv"),
         n(T, "class", "svelte-1syewv"),
         n(S, "class", "svelte-1syewv"),
-        u2(q.src, (D = "/fefe/pen-to-square.svg")) || n(q, "src", D),
+        u2(q.src, (D = "/fefe/exercise_tracker/pen-to-square.svg")) || n(q, "src", D),
         n(q, "alt", "thing"),
         n(q, "class", "icon svelte-1syewv"),
         n(E, "class", "svelte-1syewv"),
