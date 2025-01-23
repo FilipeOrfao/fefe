@@ -35,5 +35,6 @@ Quagga.init(quaggaConf, function (err) {
 });
 
 Quagga.onDetected(function (result) {
-  alert("Detected barcode: " + result.codeResult.code);
+  // alert("Detected barcode: " + result.codeResult.code);
+  barcode.innerText = result.codeResult.code;
 });
